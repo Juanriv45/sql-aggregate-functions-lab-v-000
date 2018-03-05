@@ -13,3 +13,9 @@ end
 def total_tardies_for_all_students
   "SELECT SUM(tardies) FROM students;"
 end
+
+def avg_gpa_for_9th_grade
+  "SELECT AVG(gpa) FROM students WHERE grade = 9;"
+end
+
+
